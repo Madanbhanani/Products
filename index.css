@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.contanior{
+    background-image: url('./backgrud\ image.jfif');
+    background-size: cover;
+    /* padding: 40px; */
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 200px;
+}
+.child{
+    min-width: 200px;
+    box-shadow: 0px 0px 10px rgb(122, 106, 106);
+    width: 300px;
+    background-color: white;
+    position: relative;
+    margin: 20px;
+}
+.title-img{
+    width: 100%;
+    height: 250px;
+}
+button{
+    border: 2px solid rgba(95, 24, 24, 0.774);
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+button:hover{
+    background-color: rgba(95, 24, 24, 0.774) ;
+    color: aliceblue;
+}
+.mode-change-btn{
+    background-color: rgba(95, 24, 24, 0.774);
+    color: aliceblue;
+    border: none;
+}
+.title-child{
+    padding: 20px;
+}
+.title{
+  line-height: 45px;
+   font-size: 25px;
+   color: brown;
+}
+.title-about{
+    line-height: 22px;
+    margin-top: 10px;
+    color: gray;
+    font-style: italic;
+}
+.icon-cont{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.like-icon{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  
+}
+.dolor{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: cadetblue;
+}
